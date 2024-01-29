@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+}
+
+
+:root{
+    --dark-green: #004429;
+    --gray: #656565;
+    --yellow: #FFD600;
+    --black: #252525;
+    --green: #8CC461;
+    --white: #FFF;
+    --inner-grren: #1da82b;
+    --mid-green:#1da82b90;
+    --outer-green:#2E9A2563;
+}
+.winnerpost{
+    width: 100vw;
+    height: 100vh;
+    background: var(--green);
+    color: var(--white);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+  
+.trophy{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 2rem;
+    height: 55%;
+    position: relative;
+    width: 100%;
+}
+  
+.stars{
+    position: absolute;
+}
+  
+.hurraymsg{
+    font-size: 5rem;
+    letter-spacing: 9px;
+    height: 15%;
+}
+  
+.wonsent{
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    height: 10%;
+}
+  
+.playbtn {
+    border: 2px solid var(--white);
+    background-color: var(--white);
+    border-radius: 5px;
+    height: 2.5rem;
+    color:var(--gray);
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    width: 12rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.cross{
+    background-color: red;
+    border-radius: 50%;
+    height:60px;
+    width: 60px;
+    border: 6px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 50%;
+    right: 2%;
+    cursor: pointer;
+    z-index: 1;
+    display: none;
+    
+}
+.rules{
+    background-color: var(--dark-green);
+    color: white;
+    height: 44%;
+    width:21%;
+    position: absolute;
+    bottom: 10%;
+    right: 3%;
+    overflow-y: hidden;
+    border: 7px solid white;
+    border-radius: 2rem;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    
+}
+.rules > h4{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    height: 15%;
+    margin-bottom: 10px;
+}
+
+.rules-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: 0.85rem;
+    gap: 1rem;
+    font-weight: 400;
+    height: 85%;
+}
+.rules-list > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width:auto;
+}
+.yellowcard{
+    width: 10%;
+}
+
+footer{
+    bottom:2%;
+    right:2%;
+    position: fixed;
+}
+
+
+footer>button{
+    background:transparent ;
+    font-weight: 600;
+    padding: 10px;
+    border: 2px solid var(--white);
+    border-radius: 0.5rem;
+    color:var(--white);
+    font-size: 1rem;
+    width:7rem;
+    margin-left: 1rem;
+    letter-spacing: 2px;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+.nextbtn{
+    display: none;
+}
+
+footer{
+    bottom:2%;
+    right:2%;
+    position: fixed;
+}
+
+
+footer>button{
+    background:transparent ;
+    font-weight: 600;
+    padding: 10px;
+    border: 2px solid var(--white);
+    border-radius: 0.5rem;
+    color:var(--white);
+    font-size: 1rem;
+    width:7rem;
+    margin-left: 1rem;
+    letter-spacing: 2px;
+    height: 2.5rem;
+    cursor: pointer;
+}
